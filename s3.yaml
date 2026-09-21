@@ -1,0 +1,47 @@
+Type: AWS::S3::Bucket
+Properties:
+  AbacStatus: String
+  AccelerateConfiguration: 
+    AccelerateConfiguration
+  AccessControl: String
+  AnalyticsConfigurations: 
+    - AnalyticsConfiguration
+  BucketEncryption: 
+    BucketEncryption
+  BucketName: String
+  BucketNamePrefix: String
+  BucketNamespace: String
+  CorsConfiguration: 
+    CorsConfiguration
+  IntelligentTieringConfigurations: 
+    - IntelligentTieringConfiguration
+  InventoryConfigurations: 
+    - InventoryConfiguration
+  LifecycleConfiguration: 
+    LifecycleConfiguration
+  LoggingConfiguration: 
+    LoggingConfiguration
+  MetadataConfiguration: 
+    MetadataConfiguration
+  MetadataTableConfiguration: 
+    MetadataTableConfiguration
+  MetricsConfigurations: 
+    - MetricsConfiguration
+  NotificationConfiguration: 
+    NotificationConfiguration
+  ObjectLockConfiguration: 
+    ObjectLockConfiguration
+  ObjectLockEnabled: Boolean
+  OwnershipControls: 
+    OwnershipControls
+  PublicAccessBlockConfiguration: 
+    PublicAccessBlockConfiguration
+  ReplicationConfiguration: 
+    ReplicationConfiguration
+  Tags: 
+    - Tag
+  VersioningConfiguration: 
+    VersioningConfiguration
+  WebsiteConfiguration: 
+    WebsiteConfiguration
+
