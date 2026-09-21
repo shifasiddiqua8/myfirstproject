@@ -1,7 +1,7 @@
 Type: AWS::EC2::Instance
 Properties:
   AdditionalInfo: String
-  Affinity: String
+  Affinity: number
   AvailabilityZone: String
   BlockDeviceMappings: 
     - BlockDeviceMapping
