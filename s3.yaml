@@ -8,7 +8,7 @@ Properties:
     - AnalyticsConfiguration
   BucketEncryption: 
     BucketEncryption
-  BucketName: String
+  BucketName: newBucket
   BucketNamePrefix: String
   BucketNamespace: String
   CorsConfiguration: 
